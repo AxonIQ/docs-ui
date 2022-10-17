@@ -1,0 +1,12 @@
+= List helper test
+:page-list_type: reference
+:page-list_groups: [ \
+    { \
+        "name": "product", \
+        "display": "Core products" \
+    }, \
+    { \
+        "name": "extension", \
+        "display": "Extensions" \
+    } \
+]
