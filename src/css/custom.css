@@ -1,0 +1,43 @@
+.nav-panel-menu .versions {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-top: -0.25rem;
+  line-height: 1;
+  list-style: none;
+}
+
+.nav-panel-menu .version {
+  margin: 0.375rem 0.375rem 0 0;
+}
+
+.nav-panel-menu .version a {
+  border: 1px solid var(--nav-border-color);
+  border-radius: 0.25rem;
+  opacity: 0.75;
+  white-space: nowrap;
+  padding: 0.125em 0.25em;
+  display: inherit;
+}
+
+.nav-panel-menu .is-current a {
+  border-color: currentColor;
+  opacity: 0.9;
+  font-weight: var(--body-font-weight-bold);
+}
+
+.note {
+  font-size: smaller;
+  color: gray;
+}
+
+.homepage th {
+  background-color: silver;
+  font-variant: small-caps;
+}
+
+.homepage tbody th {
+  writing-mode: sideways-lr;
+  text-orientation: mixed;
+  vertical-align: middle !important;
+}
