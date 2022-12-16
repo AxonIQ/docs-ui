@@ -24,8 +24,7 @@ jobs:
           prerelease: false
           release_name: Release ${{ github.ref }}
           tag_name: ${{ github.ref }}
-          body_path: |
-            Automated release
+          body: Auto release for tag ${{ github.ref }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: upload artifact
