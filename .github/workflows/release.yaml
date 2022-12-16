@@ -15,7 +15,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: build
-        run: gulp bundle
+        run: npm install && gulp bundle
       - name: release
         uses: actions/create-release@v1
         id: create_release
