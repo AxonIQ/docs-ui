@@ -1,0 +1,50 @@
+:root {
+
+  /* Axon primary colors */
+  --color-peacock: #1374cf;
+  --color-gecko: #00b7bf;
+  --color-fox: #fe5e00;
+
+  /* Axon secondary colors */
+  --color-starling: #7f2ecd;
+  --color-flamingo: #ce37aa;
+  --color-frog: #47bf4a;
+  --color-duckling: #e6d352;
+
+  /* Axon tertiary colors */
+  --color-pale-peacock: #9ecffc;
+  --color-pale-gecko: #b6f5ed;
+  --color-pale-fox: #fbcaad;
+  --color-pale-starling: #cfccfe;
+  --color-pale-flamingo: #ffccf3;
+  --color-pale-frog: #baffbc;
+  --color-pale-duckling: #f7efba;
+
+  /* Axon greys colors */
+  --color-seal: #f5f6f6;
+  --color-mouse: #ecedee;
+  --color-elephant: #a1a4aa;
+  --color-rhino: #434a56;
+  --color-ox: #21252b;
+
+  /* overwrite default values */
+  --font-awesome: "FontAwesome";
+  --body-font-family: "Lato", sans-serif;
+  --panel-background: var(--color-seal);
+  --panel-border-color: var(--color-gecko);
+  --navbar-background: var(--color-white);
+  --navbar-font-color: var(--color-ox);
+  --navbar_hover-background: var(--color-seal);
+  --navbar-menu_hover-background: var(--color-seal);
+  --page-version-menu-background: var(--color-seal);
+  --quote-border-color: var(--color-gecko);
+  --footer-background: var(--color-rhino);
+  --footer-font-color: var(--color-seal);
+  --footer-link-font-color: var(--color-white);
+  --link-font-color: var(--color-peacock);
+  --link_hover-font-color: var(--color-peacock);
+  --toc-border-color: var(--color-mouse);
+  --heading-font-color: var(--color-gecko);
+  --heading-font-weight: 300;
+  --alt-heading-font-weight: 300;
+}
