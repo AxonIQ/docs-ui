@@ -41,3 +41,116 @@
   text-orientation: mixed;
   vertical-align: middle !important;
 }
+
+@media screen and (min-width: 1024px) {
+  .navbar-end .navbar-item.has-dropdown:hover .navbar-link,
+  .navbar-end .navbar-link:hover,
+  .navbar-end > a.navbar-item:hover {
+    border: 1px solid var(--navbar-menu-border-color);
+    border-bottom: 1px solid var(--color-white);
+    top: 1px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .navbar-dropdown {
+    border-top: 1px solid var(--navbar-menu-border-color);
+  }
+}
+
+.toc .toc-menu a.is-active {
+  border-left-color: var(--color-gecko);
+}
+
+.primary-footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.primary-footer .footer-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.primary-footer .footer-menu ul li {
+  padding: 9px 0;
+}
+
+.primary-footer .footer-menu ul .ext::after {
+  content: "\f08e";
+  position: relative;
+  right: -7px;
+  top: -4px;
+  font-family: var(--font-awesome);
+  font-size: 10px;
+  color: var(--color-seal);
+  opacity: 0.6;
+}
+
+.page-versions .version-menu {
+  border: 1px solid var(--color-gecko);
+}
+
+.page-versions .version {
+  display: block;
+  border-top: 1px solid var(--color-elephant);
+  width: 100%;
+  text-align: right;
+  padding-top: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.doc .admonitionblock .icon i::after {
+  font-family: var(--body-font-family);
+}
+
+.fa.icon-tip::before,
+.fa.icon-note::before,
+.fa.icon-warning::before,
+.fa.icon-caution::before,
+.fa.icon-important::before {
+  position: relative;
+  left: -10px;
+  font-family: var(--font-awesome);
+  font-size: 1rem;
+  background-color: var(--color-white);
+  padding: 0.4rem;
+  border-radius: 30%;
+  min-width: 2rem;
+  text-align: center;
+  font-weight: 100;
+}
+
+.fa.icon-tip::before {
+  content: "\f0eb";
+  color: var(--tip-color);
+  border: 2px solid var(--tip-color);
+}
+
+.fa.icon-note::before {
+  content: "\f249";
+  color: var(--note-color);
+  border: 2px solid var(--note-color);
+}
+
+.fa.icon-warning::before {
+  content: "\f0f3";
+  color: var(--warning-color);
+  border: 2px solid var(--warning-color);
+}
+
+.fa.icon-caution::before {
+  content: "\f7b9";
+  color: var(--caution-color);
+  border: 2px solid var(--caution-color);
+}
+
+.fa.icon-important::before {
+  content: "\f005";
+  color: var(--important-color);
+  border: 2px solid var(--important-color);
+}
+
+.doc .conum[data-value] {
+  color: var(--color-fox);
+}
