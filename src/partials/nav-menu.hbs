@@ -5,16 +5,6 @@
     <h3 class="title"><a href="{{{relativize ./url}}}">{{./title}}</a></h3>
     {{/with}}
 
-    <ul class="versions">
-      {{#each @root.page.versions}}
-      <li class="version
-        {{~#if (eq this.version @root.page.componentVersion.version)}} is-current{{/if~}}
-        {{~#if (eq this.version @root.page.component.latestVersion.version)}} is-latest{{/if}}">
-        <a href="{{{relativize url}}}">{{displayVersion}}</a>
-      </li>
-      {{/each}}
-    </ul>
-
 {{> nav-tree navigation=this}}
   </nav>
 </div>
